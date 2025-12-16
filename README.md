@@ -3,22 +3,22 @@
 
 ## Racetrack Library
 
-### Legacy Racetracks
+### [Legacy Tracks](Legacy%20Tracks)
 
 |                                |                                 |
 |:------------------------------:|:-------------------------------:|
 | ![](Library/Porto%20Track.png) | ![](Library/Berlin%20Track.png) |
-| Porto Track                    | Berlin Track                    |
+| [Porto Track](Sim%20Racing%20Tracks/Porto%20Track) | [Berlin Track](Sim%20Racing%20Tracks/Berlin%20Track) |
 |                                |                                 |
 
-### Sim Racing Racetracks
+### [Sim Racing Tracks](Sim%20Racing%20Tracks)
 
 |                                            |                                              |
 |:------------------------------------------:|:--------------------------------------------:|
 | ![](Library/SRL%202024%20IROS%20Track.png) | ![](Library/SRL%202024%20CDC%20Track.png)    |
-| SRL 2024 IROS Track                        | SRL 2024 CDC Track                           |
+| [SRL 2024 IROS Track](Sim%20Racing%20Tracks/SRL%202024%20IROS%20Track) | [SRL 2024 CDC Track](Sim%20Racing%20Tracks/SRL%202024%20CDC%20Track) |
 | ![](Library/SRL%202025%20ICRA%20Track.png) | ![](Library/SRL%202025%20CDC-TF%20Track.png) |
-| SRL 2025 ICRA Track                        | SRL 2025 CDC-TF Track                        |
+| [SRL 2025 ICRA Track](Sim%20Racing%20Tracks/SRL%202025%20ICRA%20Track) | [SRL 2025 CDC-TF Track](Sim%20Racing%20Tracks/SRL%202025%20CDC-TF%20Track) |
 |                                            |                                              |
 
 ## Custom Racetracks
@@ -66,7 +66,7 @@ $S_{\text{cartesian}} = R_{\text{map}} \cdot S_{\text{map}}$
 
 **Step 8:** Create a circular cross-section to be swept across the track bounds, thereby representing the hollow air ducts. The radius of this cross-section will depend on the radius of the air ducts.
 
-- [Legacy Tracks](Legacy%20Tracks) follow 5 in (127 mm) air ducts.
+- [Legacy Tracks](Legacy%20Tracks) use 5 in (127 mm) air ducts.
 - [Sim Racing Tracks](Sim%20Racing%20Tracks) use 6 in (152.4 mm) air ducts.
 
 ![](Instructions/8.png)
