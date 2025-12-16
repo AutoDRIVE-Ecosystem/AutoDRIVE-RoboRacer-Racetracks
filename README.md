@@ -6,7 +6,7 @@
 > [!TIP]
 > Steps 1-3 assume that you are trying to reconstruct a physical RoboRacer racetrack based on its occupancy grid map (e.g., using SLAM). Skip to step 4 if you are designing a novel racetrack.
 
-**Step 1:** Convert the occupancy grid map of the real-world track to `PNG` using third-party tools like [Adobe Photoshop](https://www.adobe.com/products/photoshop.html) (free and open-source alternative: [Inkscape](https://inkscape.org)).
+**Step 1:** Convert the occupancy grid map of the real-world track to `PNG` using a third-party graphics editing tool like [Adobe Photoshop](https://www.adobe.com/products/photoshop.html) (free and open-source alternative: [Inkscape](https://inkscape.org)).
 
 ![](Instructions/1.png)
 
