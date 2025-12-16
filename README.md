@@ -8,7 +8,7 @@
 |                                |                                 |
 |:------------------------------:|:-------------------------------:|
 | ![](Library/Porto%20Track.png) | ![](Library/Berlin%20Track.png) |
-| [Porto Track](Sim%20Racing%20Tracks/Porto%20Track) | [Berlin Track](Sim%20Racing%20Tracks/Berlin%20Track) |
+| [Porto Track](Legacy%20Tracks/Porto%20Track) | [Berlin Track](Legacy%20Tracks/Berlin%20Track) |
 |                                |                                 |
 
 ### [Sim Racing Tracks](Sim%20Racing%20Tracks)
