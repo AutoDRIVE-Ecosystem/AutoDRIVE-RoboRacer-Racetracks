@@ -5,17 +5,21 @@
 
 ### Legacy Racetracks
 
-| ![](Library/Porto%20Track.png) | ![](Library/Berlin%20Track.png) |
+|                                |                                 |
 |:------------------------------:|:-------------------------------:|
+| ![](Library/Porto%20Track.png) | ![](Library/Berlin%20Track.png) |
 | Porto Track                    | Berlin Track                    |
+|                                |                                 |
 
 ### Sim Racing Racetracks
 
-| ![](Library/SRL%202024%20IROS%20Track.png) | ![](Library/SRL%202024%20CDC%20Track.png)    |
+|                                            |                                              |
 |:------------------------------------------:|:--------------------------------------------:|
+| ![](Library/SRL%202024%20IROS%20Track.png) | ![](Library/SRL%202024%20CDC%20Track.png)    |
 | SRL 2024 IROS Track                        | SRL 2024 CDC Track                           |
 | ![](Library/SRL%202025%20ICRA%20Track.png) | ![](Library/SRL%202025%20CDC-TF%20Track.png) |
 | SRL 2025 ICRA Track                        | SRL 2025 CDC-TF Track                        |
+|                                            |                                              |
 
 ## Custom Racetracks
 
