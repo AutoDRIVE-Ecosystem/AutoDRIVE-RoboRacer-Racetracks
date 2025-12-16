@@ -1,6 +1,22 @@
 # AutoDRIVE RoboRacer Racetracks
 1/10 Scale 3D Race Tracks for AutoDRIVE Simulator
 
+## Racetrack Library
+
+### Legacy Racetracks
+
+| ![](Library/Porto%20Track.png) | ![](Library/Berlin%20Track.png) |
+|:------------------------------:|:-------------------------------:|
+| Porto Track                    | Berlin Track                    |
+
+### Sim Racing Racetracks
+
+| ![](Library/SRL%202024%20IROS%20Track.png) | ![](Library/SRL%202024%20CDC%20Track.png)    |
+|:------------------------------------------:|:--------------------------------------------:|
+| SRL 2024 IROS Track                        | SRL 2024 CDC Track                           |
+| ![](Library/SRL%202025%20ICRA%20Track.png) | ![](Library/SRL%202025%20CDC-TF%20Track.png) |
+| SRL 2025 ICRA Track                        | SRL 2025 CDC-TF Track                        |
+
 ## Custom Racetracks
 
 > [!TIP]
@@ -28,17 +44,17 @@ $S_{\text{cartesian}} = R_{\text{map}} \cdot S_{\text{map}}$
 **Step 4:** Use a freehand tool to trace the inner and outer bounds of the racetrack based on the scaled `PNG` image of the occupancy grid map. Alternatively, design the outlines of your novel racetrack.
 
 | ![](Instructions/4.1.png) | ![](Instructions/4.2.png) |
-|:-------------------------:|:--------------------------|
+|:-------------------------:|:-------------------------:|
 
 **Step 5:** If required, soften and explode the freehand curves for finer control.
 
 | ![](Instructions/5.1.png) | ![](Instructions/5.2.png) |
-|:-------------------------:|:--------------------------|
+|:-------------------------:|:-------------------------:|
 
 **Step 6:** If required, correct any minor flaws or discontinuities in the track bounds.
 
 | ![](Instructions/6.1.png) | ![](Instructions/6.2.png) |
-|:-------------------------:|:--------------------------|
+|:-------------------------:|:-------------------------:|
 
 **Step 7:** You now have the track bounds ready for 3D modeling.
 
@@ -58,12 +74,12 @@ $S_{\text{cartesian}} = R_{\text{map}} \cdot S_{\text{map}}$
 **Step 10:** Move the cross-section entity such that the center of the circle coincides with the track bound. Duplicate the cross-section entity and repeat this for every discontinuous portion of the racetrack.
 
 | ![](Instructions/10.1.png) | ![](Instructions/10.2.png) |
-|:--------------------------:|:---------------------------|
+|:--------------------------:|:--------------------------:|
 
 **Step 11:** Rotate the cross-section entity such that it aligns perpendicular to the tangent at that point on the track bound. Repeat this for all the cross-section entities.
 
 | ![](Instructions/11.1.png) | ![](Instructions/11.2.png) |
-|:--------------------------:|:---------------------------|
+|:--------------------------:|:--------------------------:|
 
 **Step 12:** If required, ungroup (a.k.a. explode) the cross-section entity to enable further operations.
 
@@ -72,12 +88,12 @@ $S_{\text{cartesian}} = R_{\text{map}} \cdot S_{\text{map}}$
 **Step 13:** If required, sub-divide the edge of each circular cross-section (e.g., 100 segments) to ensure a smooth hull for the air ducts.
 
 | ![](Instructions/13.1.png) | ![](Instructions/13.2.png) |
-|:--------------------------:|:---------------------------|
+|:--------------------------:|:--------------------------:|
 
 **Step 14:** Sweep (a.k.a. follow me) the circular cross-sections along the track bounds to create the 3D geometry.
 
 | ![](Instructions/14.1.png) | ![](Instructions/14.2.png) |
-|:--------------------------:|:---------------------------|
+|:--------------------------:|:--------------------------:|
 
 **Step 15:** Add 2 separate materials to the inner and outer surfaces of the 3D air ducts.
 
@@ -90,4 +106,4 @@ $S_{\text{cartesian}} = R_{\text{map}} \cdot S_{\text{map}}$
 **Step 17:** Upon importing in AutoDRIVE Simulator, update the materials in the `Mesh Renderer` component to improve photorealism, and add a `Mesh Collider` component to enable collision detection and resolution.
 
 | ![](Instructions/17.1.png) | ![](Instructions/17.2.png) |
-|:--------------------------:|:---------------------------|
+|:--------------------------:|:--------------------------:|
