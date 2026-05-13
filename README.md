@@ -19,6 +19,8 @@
 | [SRL 2024 IROS Track](Sim%20Racing%20Tracks/SRL%202024%20IROS%20Track) | [SRL 2024 CDC Track](Sim%20Racing%20Tracks/SRL%202024%20CDC%20Track) |
 | ![](Library/SRL%202025%20ICRA%20Track.png) | ![](Library/SRL%202025%20CDC-TF%20Track.png) |
 | [SRL 2025 ICRA Track](Sim%20Racing%20Tracks/SRL%202025%20ICRA%20Track) | [SRL 2025 CDC-TF Track](Sim%20Racing%20Tracks/SRL%202025%20CDC-TF%20Track) |
+| ![](Library/SRL%202026%20ICRA%20Track.png) |  |
+| [SRL 2026 ICRA Track](Sim%20Racing%20Tracks/SRL%202026%20ICRA%20Track) |  |
 |                                            |                                              |
 
 ## Custom Racetracks
