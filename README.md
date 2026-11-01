@@ -1,5 +1,5 @@
 # AutoDRIVE RoboRacer Racetracks
-1/10 Scale 3D Race Tracks for AutoDRIVE Simulator
+1/10 Scale 3D Race Tracks for AutoDRIVE-RoboRacer Simulator
 
 ## Racetrack Library
 
